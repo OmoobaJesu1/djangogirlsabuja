@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Post List</title>
+        </head>
+        <body>
+            <div>
+                <h1><a href=/=>Django Girls Blog</a><h1
+                </div>
+            </div>
+            {% for post in posts %}
+            <div>
+                <p>published: {{post.published_date}}</p>
+                <h1><a href="">{{post.title }}
+                <p>{{post.text|linebreaksbr }}
+            </div>
+            {% endfor %}
+   <div></div><a href="https://djangogirls.org/abuja">Django Girls Abuja</a></div>
+            <p>Hi there!</p>
+        <p>It works!</p>
+        </body>
+        </html>
+    
